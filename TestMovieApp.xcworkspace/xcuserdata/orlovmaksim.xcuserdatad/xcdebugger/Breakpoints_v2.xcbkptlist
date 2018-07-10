@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestMovieApp/UpcomingMovies/UpcomingMoviesVC.swift"
+            timestampString = "547174148.818074"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "show(moviews:totalPages:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestMovieApp/Models/MovieDetails/MovieDetails.swift"
+            timestampString = "547940279.323768"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MovieDetails"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMovieApp.MovieDetails.init(isAdult: Swift.Optional&lt;Swift.Bool&gt;, backDropPath: Swift.Optional&lt;Swift.String&gt;, budget: Swift.Optional&lt;Swift.Int&gt;, genres: Swift.Optional&lt;Swift.Array&lt;TestMovieApp.MovieGenres&gt;&gt;, homePage: Swift.Optional&lt;Swift.String&gt;, id: Swift.Optional&lt;Swift.Int&gt;, imdbId: Swift.Optional&lt;Swift.String&gt;, originLanguage: Swift.Optional&lt;Swift.String&gt;, originTitle: Swift.Optional&lt;Swift.String&gt;, overView: Swift.Optional&lt;Swift.String&gt;, popularity: Swift.Optional&lt;Swift.Int&gt;, posterPath: Swift.Optional&lt;Swift.String&gt;, releaseDate: Swift.Optional&lt;Swift.String&gt;, status: Swift.Optional&lt;Swift.String&gt;, tagline: Swift.Optional&lt;Swift.String&gt;, title: Swift.Optional&lt;Swift.String&gt;, voreAver: Swift.Optional&lt;Swift.Int&gt;, voteCount: Swift.Optional&lt;Swift.Int&gt;) -&gt; TestMovieApp.MovieDetails"
+                  moduleName = "TestMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orlovmaksim/Desktop/TestMovieApp/TestMovieApp/Models/MovieDetails/MovieDetails.swift"
+                  timestampString = "547562422.9145139"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMovieApp.MovieDetails.init() -&gt; TestMovieApp.MovieDetails"
+                  moduleName = "TestMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orlovmaksim/Desktop/TestMovieApp/TestMovieApp/Models/MovieDetails/MovieDetails.swift"
+                  timestampString = "547562422.928969"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestMovieApp/Modules/MovieDetails/Subviews/VideoTableViewCell.swift"
+            timestampString = "548632409.699072"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMovieApp.VideoTableViewCell.__deallocating_deinit"
+                  moduleName = "TestMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orlovmaksim/Desktop/TestMovieApp/TestMovieApp/Modules/MovieDetails/Subviews/VideoTableViewCell.swift"
+                  timestampString = "547938400.609751"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMovieApp.VideoTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TestMovieApp.VideoTableViewCell"
+                  moduleName = "TestMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orlovmaksim/Desktop/TestMovieApp/TestMovieApp/Modules/MovieDetails/Subviews/VideoTableViewCell.swift"
+                  timestampString = "547938400.61385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMovieApp.VideoTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TestMovieApp.VideoTableViewCell"
+                  moduleName = "TestMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orlovmaksim/Desktop/TestMovieApp/TestMovieApp/Modules/MovieDetails/Subviews/VideoTableViewCell.swift"
+                  timestampString = "547938400.6178581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMovieApp.VideoTableViewCell.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;TestMovieApp.VideoTableViewCell&gt;"
+                  moduleName = "TestMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orlovmaksim/Desktop/TestMovieApp/TestMovieApp/Modules/MovieDetails/Subviews/VideoTableViewCell.swift"
+                  timestampString = "547938400.622835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMovieApp.VideoTableViewCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;TestMovieApp.VideoTableViewCell&gt;"
+                  moduleName = "TestMovieApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orlovmaksim/Desktop/TestMovieApp/TestMovieApp/Modules/MovieDetails/Subviews/VideoTableViewCell.swift"
+                  timestampString = "547938400.6272629"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

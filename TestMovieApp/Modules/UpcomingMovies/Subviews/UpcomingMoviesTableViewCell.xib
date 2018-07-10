@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="UpcomingMoviesTableViewCell" customModule="TestMovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="shX-xf-jRU">
+                        <rect key="frame" x="15" y="8" width="90" height="133.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="kHf-bV-MvK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5RT-93-MHa">
+                        <rect key="frame" x="113" y="25" width="183" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="P9U-TQ-IY3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                        <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NvK-fk-TFw">
+                        <rect key="frame" x="113" y="65" width="183" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="wGJ-Er-dDD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <color key="textColor" name="controlShadowColor" catalog="System" colorSpace="catalog"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leV-eM-UR4">
+                        <rect key="frame" x="135" y="89" width="161" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ot3-UX-JZ2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Ubj-Cs-eiE">
+                        <rect key="frame" x="113" y="89" width="18" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="T62-BF-WGQ"/>
+                            <constraint firstAttribute="width" constant="18" id="tr0-Ff-Bgb"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="shX-xf-jRU" secondAttribute="bottom" constant="8" id="0Bg-sY-jTK"/>
+                    <constraint firstItem="NvK-fk-TFw" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="3FT-iG-j02"/>
+                    <constraint firstItem="Ubj-Cs-eiE" firstAttribute="leading" secondItem="shX-xf-jRU" secondAttribute="trailing" constant="8" id="CEV-Hm-0WD"/>
+                    <constraint firstItem="NvK-fk-TFw" firstAttribute="top" secondItem="5RT-93-MHa" secondAttribute="bottom" id="CgP-fD-xv8"/>
+                    <constraint firstItem="Ubj-Cs-eiE" firstAttribute="top" secondItem="NvK-fk-TFw" secondAttribute="bottom" constant="4" id="Fht-Md-I2r"/>
+                    <constraint firstItem="5RT-93-MHa" firstAttribute="leading" secondItem="shX-xf-jRU" secondAttribute="trailing" constant="8" id="I3L-ot-FDE"/>
+                    <constraint firstItem="leV-eM-UR4" firstAttribute="top" secondItem="NvK-fk-TFw" secondAttribute="bottom" constant="4" id="WkZ-DS-blz"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="leV-eM-UR4" secondAttribute="trailing" constant="8" id="bBS-gz-6xm"/>
+                    <constraint firstItem="leV-eM-UR4" firstAttribute="leading" secondItem="Ubj-Cs-eiE" secondAttribute="trailing" constant="4" id="bno-z7-NQq"/>
+                    <constraint firstItem="shX-xf-jRU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="fNe-Kp-eJl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="5RT-93-MHa" secondAttribute="trailing" constant="8" id="fYM-Zr-hXB"/>
+                    <constraint firstItem="NvK-fk-TFw" firstAttribute="leading" secondItem="shX-xf-jRU" secondAttribute="trailing" constant="8" id="jjY-qQ-00m"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="NvK-fk-TFw" secondAttribute="trailing" constant="8" id="uG9-jd-vy8"/>
+                    <constraint firstItem="shX-xf-jRU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="xPt-rs-0Jj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieCover" destination="shX-xf-jRU" id="UHe-Oo-A5d"/>
+                <outlet property="movieTitle" destination="5RT-93-MHa" id="iSh-Bh-LLI"/>
+                <outlet property="movieVote" destination="leV-eM-UR4" id="M30-AI-gZZ"/>
+                <outlet property="movieYear" destination="NvK-fk-TFw" id="flC-Q8-DDF"/>
+                <outlet property="star" destination="Ubj-Cs-eiE" id="oSl-HN-SmY"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star" width="50" height="50"/>
+    </resources>
+</document>
